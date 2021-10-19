@@ -1,4 +1,3 @@
-const elStopBtn = document.querySelector('.stop__btn');
 const elTrafficLight = document.querySelector('.tarffic-light');
 const elRedLight = document.querySelector('.red');
 const elYellowLight = document.querySelector('.yellow');
@@ -69,17 +68,6 @@ startTrafficLight();
 	startTrafficLight();
 }, 20000);
 
-
-
-
-
-// elModal.addEventListener('click', (evt)=>{
-//    if(evt.target.matches('.btn')){
-//       elModal.style.display = 'none'
-//    }else if(evt.target.matches('.box')){
-//       elModal.style.display = 'none'
-//    }
-// })
 
 elStopBtn.addEventListener('click', () => {
 	clearTimeout(startTrafficLight());
